@@ -10,7 +10,7 @@ style.use('fivethirtyeight')
 
 pd.set_option('display.max_columns',100)
 
-quandl.ApiConfig.api_key = 'W2uk3EPvYMonwofZEWsx'
+quandl.ApiConfig.api_key = '****************'
 
 def state_list():
     fifty_states = pd.read_html('https://simple.wikipedia.org/wiki/List_of_U.S._states')
